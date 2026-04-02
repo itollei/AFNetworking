@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Reachability' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.osx.deployment_target = '10.10'
-    ss.tvos.deployment_target = '9.0'
+    # ss.osx.deployment_target = '10.10'
+    # ss.tvos.deployment_target = '9.0'
 
     ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
   end
@@ -48,8 +48,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIKit' do |ss|
     ss.ios.deployment_target = '9.0'
-    ss.tvos.deployment_target = '9.0'
-    ss.dependency 'AFNetworking/NSURLSession'
+    # ss.tvos.deployment_target = '9.0'
+    # ss.dependency 'AFNetworking/NSURLSession'
 
     ss.source_files = 'UIKit+AFNetworking'
   end
