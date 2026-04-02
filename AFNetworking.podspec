@@ -49,7 +49,7 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |ss|
     ss.ios.deployment_target = '9.0'
     # ss.tvos.deployment_target = '9.0'
-    # ss.dependency 'AFNetworking/NSURLSession'
+    ss.dependency 'AFNetworking/NSURLSession'
 
     ss.source_files = 'UIKit+AFNetworking'
   end
